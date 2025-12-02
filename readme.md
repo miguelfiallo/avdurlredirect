@@ -5,7 +5,7 @@
 
 Here's how the AVD HTTP redirection works:
 
-* The client queries the custom domain name avd.markou.me.
+* The client queries the custom domain name avd.markou.mf.
 * The DNS request is resolved and the CNAME record is returned to the client.
 * The client connects to the Azure Static Website.
 * Azure Static Web App redirects the client to AVD public endpoint address.
